@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.ravi.cal.RaviCalculator.CalculatorTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 sec
+=======
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 sec
+>>>>>>> 41c2a8c0cd05aa01d64358d0eee2d1a41a95a8b2
