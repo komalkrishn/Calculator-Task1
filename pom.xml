@@ -6,7 +6,7 @@
 
   <groupId>com.ravi.cal</groupId>
   <artifactId>RaviCalculator</artifactId>
-  <version>releases</version>
+  <version>1.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>RaviCalculator</name>
@@ -23,12 +23,24 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-<distributionManagement>
-  <repository>
-    <id>releases</id>
-    <url>http://3.235.183.163:8081/nexus/content/repositories/releases</url>
-  </repository>
-</distributionManagement>
+<build>
+      <plugins>
+         <plugin>
+            <!-- Building an executable jar -->
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jar-plugin</artifactId>
+            <version>3.1.0</version>
+            <configuration>
+               <archive>
+                  <manifest>
+                     <!-- give full qualified name of your main class-->
+                     <mainClass>com.ravi.cal.RaviCalculator.Calculator</mainClass>
+                  </manifest>
+               </archive>
+            </configuration>
+         </plugin>
+      </plugins>
+   </build>
 </project>
 
 
