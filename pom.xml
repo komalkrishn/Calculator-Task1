@@ -41,15 +41,13 @@
          </plugin>
       </plugins>
    </build>
-<<<<<<< HEAD
 <distributionManagement>
   <repository>
     <id>releases</id>
     <url>http://3.235.183.163:8081/nexus/content/repositories/releases</url>
   </repository>
 </distributionManagement>
-=======
->>>>>>> 41c2a8c0cd05aa01d64358d0eee2d1a41a95a8b2
+
 </project>
 
 
